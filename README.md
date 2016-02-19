@@ -1,9 +1,9 @@
 # Tacosdetection
-Contains the supplementary materials from the paper: "A Dictionary-based Approach to Racism Detection in Dutch Social Media", under review for the TACOS workshop at LREC 2016.
+Contains the supplementary materials from the paper: "A Dictionary-based Approach to Racism Detection in Dutch Social Media", under review for the [TA-COS](http://www.ta-cos.org) workshop at LREC 2016.
 
 ## license
 
-The dictionaries in this repository are available under a CC BY-SA 3.0 License. 
+The dictionaries in this repository are available under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) License. 
 If you use the dictionaries in your work, please cite:
 
 ```
@@ -19,4 +19,4 @@ If you use the dictionaries in your work, please cite:
 
 ## usage
 
-The dictionaries are in .csv format. The first word of each line is the category name, while the other words are words in that category. You can easily automatically create regexes using the '+' and '*' symbols to account for the wildcards.
+The dictionaries are in .csv format. The first word of each line is the category name, while the other words are words in that category. Included is a python 2.7 script which reads in the dictionaries and outputs relative frequencies. Can be used for similar dictionaries.
