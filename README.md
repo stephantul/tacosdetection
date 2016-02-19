@@ -9,7 +9,7 @@ If you use the dictionaries in your work, please cite:
 ```
 @inproceedings{tulkens2016a,
   title={A Dictionary-based Approach to Racism Detection in Dutch Social Media},
-  author={Tulkens, St\'{e}phan and Hilte, Lisa and Lodwyckx, Elise and Verhoeven, Ben and Daelemans, Walter},
+  author={Tulkens, St\'{e}phan and Hilte, Lisa and Lodewyckx, Elise and Verhoeven, Ben and Daelemans, Walter},
   booktitle={Language Resources and Evaluation Conference},
   year={2016},
   organization={European Language Resources Association (ELRA)}
