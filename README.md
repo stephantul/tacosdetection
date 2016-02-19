@@ -6,6 +6,7 @@ Contains the supplementary materials from the paper: "A Dictionary-based Approac
 The dictionaries in this repository are available under a CC BY-SA 3.0 License. 
 If you use the dictionaries in your work, please cite:
 
+```
 @inproceedings{tulkens2016a,
   title={A Dictionary-based Approach to Racism Detection in Dutch Social Media},
   author={Tulkens, St\'{e}phan and Hilte, Lisa and Lodwyckx, Elise and Verhoeven, Ben and Daelemans, Walter},
@@ -13,6 +14,8 @@ If you use the dictionaries in your work, please cite:
   year={2016},
   organization={European Language Resources Association (ELRA)}
 }
+```
+
 
 ## usage
 
