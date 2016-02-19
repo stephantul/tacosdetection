@@ -10,7 +10,7 @@ If you use the dictionaries in your work, please cite:
 @inproceedings{tulkens2016a,
   title={A Dictionary-based Approach to Racism Detection in Dutch Social Media},
   author={Tulkens, St\'{e}phan and Hilte, Lisa and Lodewyckx, Elise and Verhoeven, Ben and Daelemans, Walter},
-  booktitle={Language Resources and Evaluation Conference},
+  booktitle={Proceedings of the LREC 2016 Workshop on Text Analytics for Cybersecurity and Online Safety (TA-COS)},
   year={2016},
   organization={European Language Resources Association (ELRA)}
 }
