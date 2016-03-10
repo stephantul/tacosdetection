@@ -39,6 +39,7 @@ class DictFeaturizer(object):
 
         # Make frequency dictionary of the text to diminish number of runs in further for loop
         freq_dict = Counter(text.lower().split())
+        vocab = set(freq_dict.keys())
 
         features = dict()
 
@@ -47,11 +48,11 @@ class DictFeaturizer(object):
             normal, wildcards = wordlists
             freq = 0
 
-            features[key] = sum([freq_dict[k] for k in normal & freq_dict.keys()]) 
+            features[key] = sum([freq_dict[k] for k in normal & vocab]) 
             if wildcards:
-                features[key] += sum([freq_dict[k] for k in freq_dict.keys() - normal if wildcards.match(k)])
+                features[key] += sum([freq_dict[k] for k in vocab - normal if wildcards.match(k)])
             
         if rel:
-            return {k: v / len(text.split()) for k, v in features.items()}
+            return {k: v / sum(freq_dict.values()) for k, v in features.items()}
         else:
             return features
