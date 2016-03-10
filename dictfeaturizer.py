@@ -29,16 +29,17 @@ class DictFeaturizer(object):
 
                 self.dict[key] = (normal, regex)
 
-    def featurize(self, text, rel=True):
+    def featurize(self, wordlist, rel=True):
         """
-        param: text: a tokenized string representation.
+        param: wordlist: a list of words
         type: text: str
+        param: rel: whether to return relative or absolute scores per class.
+        type: boolean
         return: a frequency dictionary for each category in the dictionary.
         type: return: dict
         """
 
-        # Make frequency dictionary of the text to diminish number of runs in further for loop
-        freq_dict = Counter(text.lower().split())
+        freq_dict = Counter(wordlist)
         vocab = set(freq_dict.keys())
 
         features = dict()
